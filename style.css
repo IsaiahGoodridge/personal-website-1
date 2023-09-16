@@ -11,6 +11,7 @@ body {
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 110px;
 }
 
 p {
@@ -31,6 +32,10 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 17vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
 }
 
 .nav-links {
@@ -54,10 +59,11 @@ a:hover{
 
 .logo {
     font-size: 2rem;
+
 }
 
 .logo:hover {
-    cursor: default;
+    cursor: pointer;
 }
 
 /* Hamburger Menu */
@@ -144,7 +150,7 @@ a:hover{
 section {
     padding-top: 4vh;
     height: 96vh;
-    margin: 0 10rem;
+    margin: 4rem 10rem;
     box-sizing: border-box;
     min-height: fit-content;
 }
@@ -242,19 +248,20 @@ section {
 
 
 /* Coding Languages */
-#coding-lang-heading-container{
+#tools-heading-container{
     display: flex;
     margin-top: 2rem;
     justify-content: center;
 }
 
-.coding-lang-container {
+.coding-lang-container, .libraries-container, .frameworks-container {
     display: flex;
     gap: 2rem;
     justify-content: center;
     margin-top: 1rem;
+    text-align: center;
 }
 
-.lang-icon {
+.tool-icon {
     height: 2rem;
 }
