@@ -272,6 +272,8 @@ section {
     display: flex;
     gap: 3;
     text-align: center;
+    justify-content: center;
+    margin-top: 1rem;
 }
 
 .color-container {
@@ -281,14 +283,22 @@ section {
 
 .project-img {
     border-radius: 2rem;
-    width: 70%;
-    height: 70%;
+    width: 100px;
+    height: 130px;
+    transition: all 2000ms ease;
+}
+
+.project-one-img:hover {
+    width: 620px;
+    height: 600px;
 }
 
 .project-title {
     margin: 1rem;
     color: black;
 }
+
+
 
 /*Contact*/
 
