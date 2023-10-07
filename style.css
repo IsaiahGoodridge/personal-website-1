@@ -266,6 +266,38 @@ section {
     height: 2rem;
 }
 
+/* Experience */
+
+.experience-info {
+    display: flex;
+    gap: 4rem;
+    margin-top: 4rem;
+    justify-content: center;
+}
+
+.meta-certificate-course-content-list{
+    font-size: 25px;
+    margin-top: 3rem;
+}
+
+.course-list {
+    margin-top: 1rem;
+}
+
+.certificate-img {
+    transition: all 700ms ease;
+    width: 340px;
+}
+
+.certificate-img:hover {
+    width: 360px;
+}
+
+.meta-cert-p1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
 /* Projects */
 
 .project-details-container {
