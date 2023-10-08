@@ -318,21 +318,17 @@ section {
     margin-top: 1rem;
 }
 
-.color-container {
-    border-color: rgb(163,163,163);
-    background:rgb(250, 250, 250);
-}
+
 
 .project-img {
-    border-radius: 2rem;
     width: 100px;
     height: 130px;
     transition: all 2000ms ease;
 }
 
 .project-one-img:hover {
-    width: 620px;
-    height: 600px;
+    width: 610px;
+    height: 590px;
 }
 
 .project-title {
