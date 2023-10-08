@@ -254,6 +254,16 @@ section {
     justify-content: center;
 }
 
+.about-text-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.about-text {
+    max-width: 40em;
+    line-height: 1.7rem;
+}
+
 .coding-lang-container, .libraries-container, .frameworks-container {
     display: flex;
     gap: 2rem;
