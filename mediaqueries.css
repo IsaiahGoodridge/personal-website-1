@@ -75,6 +75,11 @@
         font-size: 1.25rem;
     }
 
+    .project-one-img:hover {
+        width:  320px;
+        height: 300px;
+    }
+
     .logo {
         font-size: 1.5rem;
     }
@@ -100,6 +105,11 @@
     .certificate-img{
         width: 170px;
     }
+
+    .certificate-img:hover {
+        width: 190px;
+    }
+    
 
     .course-list {
         font-size: 12px;
